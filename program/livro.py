@@ -1,6 +1,7 @@
 class Livro:
 
-    def __init__(self, isbn, nome):
+    def __init__(self, isbn, nome, autor):
         
-        self.isbn = isbn
-        self.nome = nome
+        self.isbn  = isbn
+        self.nome  = nome
+        self.autor = autor
